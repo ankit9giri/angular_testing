@@ -19,6 +19,7 @@ export class AuthService {
   //   return this.http.post(url, userDetail);
   // }  
 
+  // wrkgj
   login(authRequstParam): Observable<any> {
     let url = this.baseUrl + "authenticate";
     console.log("sussess")

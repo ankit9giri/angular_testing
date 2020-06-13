@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
- 
+  test: string = "";
   form: FormGroup;
   authRequstParam: any = {
     username: "",
@@ -18,7 +18,7 @@ export class LoginComponent {
 
   username: string = "admin";
   password: string = "admin";
-  
+
   response: any;
 
   constructor(
